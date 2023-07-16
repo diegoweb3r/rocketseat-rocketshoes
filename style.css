@@ -1,0 +1,117 @@
+:root {
+    --button: #FF0000;
+    --main-background: #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+#container {
+    background-color: darkcyan;
+    width: 100%;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: darkgray;
+    width: 92%;
+    height: 3rem;
+    margin: 39px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar .linksContainer{
+    
+    width: 60%;
+    height: 100%;
+    margin: 0 5.125rem 0 7.125rem;
+}
+#navbar .linksContainer ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .linksContainer a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+#navbar .searchContainer{
+    width: 13.75rem;
+    height: 100%;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+#navbar .searchContainer img{
+    margin-left: 0.813rem;
+}
+
+#navbar .searchContainer input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    align-items: center;
+    font-weight: 500;
+    padding-left: 0.313rem;
+    font-size: 1.125rem;
+}
+
+#mainContainer{
+    background-color: darkgreen;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainContainer .ctaSection{
+    background-color: darkmagenta;
+    width: 47.5%;
+    padding: 6.438rem 4.5rem 11.938rem 6.938rem;
+}
+
+#mainContainer .ctaSection h1{
+    width: 22.313rem;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+#mainContainer .ctaSection p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-description);
+}
+
+
+#mainContainer .pictureSection{
+    background-color: greenyellow;
+    width: 62.5%;
+    height: 100%;
+
+}
